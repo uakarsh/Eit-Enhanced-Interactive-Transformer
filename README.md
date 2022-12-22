@@ -1,7 +1,7 @@
 # Eit-Enhanced-Interactive-Transformer
 
-
 ![EIT architecture](images/img_2.jpg)
+
 Implementation of [EIT: ENHANCED INTERACTIVE TRANSFORMER](https://arxiv.org/abs/2212.10197), the Enhanced Interactive Transformer (EIT), to address the issue of head degradation in self-attention mechanisms. The author's approach replaces the traditional multi-head self-attention mechanism with the Enhanced Multi-Head Attention (EMHA) mechanism, which relaxes the one-to-one mapping constraint among queries and keys, allowing each query to attend to multiple keys. Furthermore, the authors introduce two interaction models, Inner-Subspace Interaction and Cross-Subspace Interaction, to fully utilize the many-to-many mapping capabilities of EMHA. Extensive experiments on a wide range of tasks (e.g. machine translation, abstractive summarization, grammar correction, language modelling and brain disease automatic diagnosis) show its superiority with a very modest increase in model size.
 
 ## Install
