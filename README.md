@@ -28,7 +28,11 @@ config = {
     "intermediate_ff_size_factor": 4,
     "num_attention_heads": 12,
     "num_hidden_layers": 12,
-    "use_efficient" : False  ## Can be True or False
+    "use_efficient" : False  ## Can be True or False,
+    "groups" : -1, 
+    "h_isi" : -1,
+    "h_csi" : -1,
+    "common_channels" : -1
   }
 
 encoder = Encoder(config)
